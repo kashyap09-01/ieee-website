@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>International Conference on AI, ML, and Data Science (IC-AIMLDS)</title>
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+
+        <style>
+            #carouselExampleIndicators {
+                margin-left: 50px;
+                margin-top: 25px;
+                margin-right: 50px;
+                position: relative;
+            }
+
+            .carousel-inner {
+                height: 500px;
+                /* Set the height to 500 pixels */
+            }
+            body > div > a,
+            body > div > p,
+            body > div > ul > li {
+                text-align: justify;
+                text-decoration: none;
+                line-height: 2;
+                font-size: 18px;
+            }
+            .card {
+                margin-bottom: 50px;
+                box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.1);
+                border: none;
+            }
+        </style>
+
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">International Conference on AI, ML, and Data Science</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar"
+                    aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                    class="offcanvas offcanvas-end text-bg-dark"
+                    tabindex="-1"
+                    id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">IC-AIMLDS</h5>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-white"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#call-for-papers">Call for Papers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#submission">Submission</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="committee.html">Committee</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#venue">Venue</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#dates">Dates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="speakers.html">Speakers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#registration">Registration</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact Us</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active bg-light"
+                    aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button
+                    type="button"
+                    class="bg-light"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button
+                    type="button"
+                    class="bg-light"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="images/hyderabad.jpg"
+                        class="d-block w-100"
+                        style="height:500px; width: 750px;"
+                        alt="Picture 1">
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="images/cbit-2.jpg"
+                        class="d-block w-100"
+                        style="height:500px; width: 750px;"
+                        alt="Picture 2">
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="images/cbit.jpg"
+                        class="d-block w-100"
+                        style="height:500px; width: 750px;"
+                        alt="Picture 3">
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- About -->
+        <div
+            id="about"
+            style="margin: 50px; text-align: justify; text-decoration: none;">
+            <hr>
+            <h2>About</h2>
+            <p>The International Conference on AI, ML, and Data Science (IC-AIMLDS) is a
+                premier academic event aimed at bringing together researchers, practitioners,
+                and industry experts from around the globe to discuss and exchange ideas on the
+                latest advancements and innovations in the fields of Artificial Intelligence
+                (AI), Machine Learning (ML), and Data Science. IC-AIMLDS provides a unique
+                platform for scholars, scientists, engineers, and students to present their
+                research findings, share insights, and collaborate on interdisciplinary research
+                topics spanning AI, ML, and Data Science.
+            </p>
+            <p>
+                The International Conference on AI, ML, and Data Science (IC-AIMLDS) is
+                conducted by the Department of Artificial Intelligence and Machine Learning
+                (AIML) at Chaitanya Bharathi Institute of Technology (CBIT).
+            </p>
+        </div>
+
+        <!-- Call for Papers -->
+        <div id="call-for-papers" style="margin: 50px;">
+            <hr>
+            <h2>Call for Papers</h2>
+            <p>A sustainable society is driven by the principle of realizing peace and
+                prosperity for all people and the planet with an inclusiveness that “leaves no
+                one behind.” This conference takes paper submissions on research and development
+                of ML techniques in the context of sustainable societies. International
+                conference on machine learning for society can encompass a wide range of topics
+                and tracks that address the societal impact and applications of machine learning
+                Topics may include, but are not limited to.</p>
+
+            <h3>Publication and Indexing:</h3>
+            <p>It is planned to publish the proceedings with Springer series (final approval
+                pending)</p>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 1: Ethics and Fairness in Machine Learning:</h3>
+                                <ul>
+                                    <li>Fairness and bias in machine learning algorithms</li>
+                                    <li>Ethical considerations in data collection and usage</li>
+                                    <li>Responsible AI and machine learning practices</li>
+                                    <li>Algorithmic transparency and interpretability</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 2: Machine learning for Social Good:</h3>
+                                <ul>
+                                    <li>Healthcare applications of machine learning</li>
+                                    <li>Environmental sustainability and conservation</li>
+                                    <li>Poverty alleviation and social welfare</li>
+                                    <li>Disaster response and recovery</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 3: Machine learning for Education and Outreach:</h3>
+                                <ul>
+                                    <li>Machine learning in education and skill development</li>
+                                    <li>Public awareness and education on AI and ML</li>
+                                    <li>Outreach programs for underrepresented communities</li>
+                                    <li>Promoting diversity and inclusion in AI/ML fields</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 4: Machine learning for Privacy and Security:</h3>
+                                <ul>
+                                    <li>Data privacy and protection in machine learning</li>
+                                    <li>Secure machine learning models and deployment</li>
+                                    <li>Adversarial attacks and defences</li>
+                                    <li>Privacy-preserving machine learning techniques</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 5: Machine learning for Natural Language Processing for Society:</h3>
+                                <ul>
+                                    <li>Machine translation and cross-lingual communication</li>
+                                    <li>Sentiment analysis and emotion detection</li>
+                                    <li>Fake news detection and information verification</li>
+                                    <li>Language models for accessibility and inclusivity</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 6: Machine learning for Healthcare and Biomedical Applications:</h3>
+                                <ul>
+                                    <li>Medical image analysis and diagnosis</li>
+                                    <li>Drug discovery and personalized medicine</li>
+                                    <li>Predictive analytics in healthcare</li>
+                                    <li>Monitoring and improving healthcare delivery</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 7: Machine Learning for Education:</h3>
+                                <ul>
+                                    <li>Personalized learning and recommendation systems</li>
+                                    <li>Educational data mining and learning analytics</li>
+                                    <li>Adaptive assessment and grading systems</li>
+                                    <li>Educational technology and AI-enhanced classrooms</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 8: Machine learning for Social and Economic Impact:</h3>
+                                <ul>
+                                    <li>Labor market effects of automation and AI</li>
+                                    <li>Economic implications of AI adoption</li>
+                                    <li>AI in government and public policy</li>
+                                    <li>Social and cultural impacts of AI/ML</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 9: Machine learning in Agriculture and Food Security:</h3>
+                                <ul>
+                                    <li>Precision agriculture and crop management</li>
+                                    <li>Food quality and safety monitoring</li>
+                                    <li>Supply chain optimization</li>
+                                    <li>Pest and disease detection</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 10: Machine Learning in Urban Planning:</h3>
+                                <ul>
+                                    <li>Smart city applications and infrastructure</li>
+                                    <li>Traffic management and transportation optimization</li>
+                                    <li>Energy efficiency and sustainable urban development</li>
+                                    <li>Crime prediction and public safety</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Track 11: Machine learning for Humanitarian Aid and Crisis Response:</h3>
+                                <ul>
+                                    <li>Disaster management and relief efforts</li>
+                                    <li>Refugee support and displacement## tracking</li>
+                                    <li>Humanitarian logistics and resource allocation</li>
+                                    <li>Conflict resolution and peacekeeping</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 d-flex align-items-stretch">
+                        <div class="card ">
+                            <div class="card-body">
+                                <h3>Track 12: Machine learning in Arts & Culture:</h3>
+                                <ul>
+                                    <li>Creative AI and generative art</li>
+                                    <li>Cultural preservation and heritage digitization</li>
+                                    <li>AI-enhanced entertainment and storytelling</li>
+                                    <li>Music and performance AI applications</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Submission -->
+        <div id="submission" style="margin: 50px;">
+            <hr>
+            <h2>Submission</h2>
+            <h3>Information and Guidelines for Authors:</h3>
+            <p>Papers are expected to be within the 8-15 page range. The review process
+                takes into account both the quality in writing and the scientific impact of the
+                work. Authors should clearly identify the problem, their contribution(s),
+                justification with respect to the state-of-the-art works</p>
+
+            <h3>Initial Submission and Evaluation:</h3>
+            <ul>
+                <li>The manuscripts for initial submission should be submitted in a single. Doc
+                    or .PDF format file.</li>
+
+                <li>Authors are instructed not to include name and affiliation details in the
+                    paper as conference follows single blind review process.</li>
+
+                <li>All papers will be assigned a paper ID. You will receive this ID after you
+                    have completed the paper submission process. Authors are then required to use
+                    the paper ID assigned to them for all future correspondence regarding this
+                    paper.</li>
+
+                <li>The manuscripts initially will be checked for PLAGIARISM followed by single
+                    blind review process.</li>
+
+                <li>All papers that confirm to submission guidelines will be peer-reviewed by at
+                    least two independent referees from the Conference Review Board and evaluated
+                    based on originality, technical and/or research content/depth, correctness,
+                    relevance to conference, contributions, and readability.</li>
+
+                <li>IMPORTANT NOTE: Authors must obtain permissions from the previous
+                    publisher(s) for any material (text, figures, tables etc.) they want to reuse,
+                    and submit the same with paper.</li>
+            </ul>
+
+            <h3>Acceptance of Papers:</h3>
+            <ul>
+                <li>Based the decisions given by our reviewers the decision of paper
+                    acceptance/rejection will be communicated authors through email.</li>
+                <li>The authors of the accepted papers will be allowed to make corrections in
+                    accordance with the suggestions of the reviewers and submit final camera-ready
+                    papers within the stipulated deadline.</li>
+            </ul>
+
+            <h3>Final Submission of papers:</h3>
+            <p>Each accepted final paper must be accompanied by the dully filled in
+                copyright form called Consent to Publish (CTP), which we ask a corresponding
+                author to complete and sign. The final submission should be prepared as a
+                separate zipped file as mentioned below.<br>
+
+                All final submissions should be in a .zip compressed archive including:</p>
+            <ul style="list-style: none;">
+                <li>The source (input) files, i.e. TeX source files for the text and figure
+                    files (300 dpi resolution),</li>
+
+                <li>Any style files, templates, and special fonts the authors may have used,</li>
+
+                <li>MS Word file in the case of using MS Word,</li>
+
+                <li>The final Postscript (.ps) or Adobe Acrobat (.pdf) file,</li>
+
+                <li>The dully filled and signed copyright form.</li>
+            </ul>
+            <h3>Author Guidelines For Conference Proceedings</h3>
+            <h3>Sample Article For Submission</h3>
+            <a
+                href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines">Get Here</a>
+            <br>
+            <a
+                href="https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WuA4JS5uZpi">Get Here</a>
+
+        </div>
+
+        <!-- Venue -->
+        <div id="venue" style="margin: 50px;">
+            <hr>
+            <h2>Venue</h2>
+            <h3>Chaitanya Bharathi Institute of Technology</h3>
+            <p>CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY, established in the Year 1979,
+                esteemed as the Premier Engineering Institute in the States of Telangana and
+                Andhra Pradesh, was promoted by a Group of Visionaries from varied Professions
+                of Engineering, Medical, Legal and Management, with an Objective to facilitate
+                the Best Engineering and Management Education to the Students and contribute
+                towards meeting the need of Skilled and Technically conversant Engineers and
+                Management Professionals, for the Country that embarked on an Economic Growth
+                Plan.</p>
+
+            <p>The Institute, committed to Education and Innovation, started with
+                three-Degree Courses in Engineering for 200 Students and over the 45 Years, has
+                emerged as a Dream Destination for; Students seeking to excel in Engineering and
+                Management Education, Teaching Community to progress with a rewarding Career and
+                Corporates to source well-rounded Engineers.</p>
+
+        </div>
+
+        <!-- Important Dates -->
+        <div id="dates" style="margin: 50px;">
+            <hr>
+            <h2>Dates</h2>
+            <p>
+                <strong>Last date for submission:</strong>
+                10th October 2024</p>
+
+            <p>
+                <strong>Acceptance Notification:</strong>
+                10th November 2024</p>
+
+            <p>
+                <strong>Camera Ready Submission & Registration:</strong>
+                20th November 2024</p>
+
+            <p>
+                <strong>Conference Dates:
+                </strong>
+                3rd and 4th December 2024</p>
+
+        </div>
+
+        <!-- Registration -->
+        <div id="registration" style="margin: 50px;">
+            <hr>
+            <h2>Registration</h2>
+            <h3>THIS IS A FREE REGISTRATION EVENT
+            </h3>
+            <p>The event is supported by Chaitanya Bharathi Institute of Technology, and it is a
+                FREE admission event, but registration is needed. Certificate of attendance will
+                be issued for the presentation of technical papers, (and/or), attendance of the
+                conference. Certificates will be emailed to participants automatically,
+                immediately after the end of the conference.</p>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact" style="margin: 50px;">
+            <hr>
+            <h2>Contact Us</h2>
+            <h3>Dr. Prabhakar Kandukuri</h3>
+            <p>Email:
+                <a href="mailto: prabhakark_aiml@cbit.ac.in" style="text-decoration: none;">prabhakark_aiml@cbit.ac.in</a>
+            </p>
+        </div>
+
+        <footer class="bg-dark" style="overflow: hidden;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.412543749052!2d78.31685650993971!3d17.391978602605594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb94eba8ad7c87%3A0xb78f51ed556f7cc5!2sChaitanya%20Bharathi%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1708747363353!5m2!1sen!2sin"
+                width="100%"
+                height="250"
+                style="margin: 10px;"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="container text-center text-bg-dark">
+                <div class="row align-items-start">
+                    <div class="col-md-4">
+                        <h4>Technical Sponsors</h4>
+                        <ul style="list-style: none;">
+                            <li>Sponsor 1</li>
+                            <li>Sponsor 2</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Promotional Sponsors</h4>
+                        <ul style="list-style: none;">
+                            <li>Sponsor 1</li>
+                            <li>Sponsor 2</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Promotional Sponsors</h4>
+                        <ul style="list-style: none;">
+                            <li>Sponsor 1</li>
+                            <li>Sponsor 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
